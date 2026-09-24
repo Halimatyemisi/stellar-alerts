@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/ci-typecheck-build-matrix",
+    "feat/dashboard-componentization",
+    "feat/phase-2-core-engine",
+    "main",
+    "origin",
+    "task-10",
+    "task-11",
+    "task-11-watcher"
+  ],
+  "parent": {
+    "feat/ci-typecheck-build-matrix": "main",
+    "feat/dashboard-componentization": "main",
+    "feat/phase-2-core-engine": "main",
+    "main": null,
+    "origin": "main",
+    "task-10": "main",
+    "task-11": "main",
+    "task-11-watcher": "task-11"
+  },
+  "order": [
+    "main",
+    "feat/ci-typecheck-build-matrix",
+    "feat/dashboard-componentization",
+    "feat/phase-2-core-engine",
+    "origin",
+    "task-10",
+    "task-11",
+    "task-11-watcher"
+  ]
+}
